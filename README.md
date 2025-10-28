@@ -1,5 +1,5 @@
-**RAG Demo (Retrieval-Augmented Generation)
-**
+**RAG Demo (Retrieval-Augmented Generation)**
+
 This project demonstrates a simple end-to-end Retrieval-Augmented Generation (RAG) pipeline in Python.
 It loads documents, chunks them, generates embeddings, stores them in a vector database, retrieves relevant context based on a user query, and finally uses an LLM to answer using that context.
 
@@ -13,8 +13,8 @@ It loads documents, chunks them, generates embeddings, stores them in a vector d
 - Feed retrieved context into a Large Language Model (LLM)
 - Return grounded, context-aware answers
 
-**Tech Stack
-**
+**Tech Stack**
+
 - Embeddings: sentence-transformers
 - Vector Store: chromadb
 - LLM: langchain-openai
